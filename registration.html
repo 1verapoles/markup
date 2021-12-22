@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+<div class="main">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="logo">
+          <a class="brand" href="/"><img src="assets/images/LOGO.png" alt="logo"></a>          
+        </div>
+        <div class="form-wrapper">
+        .<form>
+          <h1 class="heading">Sign up with your email</h1>
+          <p class="question">Already have an account?&nbsp;<a href="signin.html" class="blue">Sign in</a></p>
+            <input type="email" class="form-control" id="email" name="email" aria-describedby="email" placeholder="Email" autocomplete="off" required>
+            <div class="group-with-eye">
+            <input type="password" class="form-control pass" name="password" id="password" placeholder="Password" autocomplete="off" required>
+            <img src="assets/images/hide.png" alt="eye-slash" class="eye-pass" id="togglePassword">
+            <img src="assets/images/eye.svg" alt="eye" class="eye eye-pass" id="togglePassword1">           
+          </div>
+            <input type="password" class="form-control" name="password-confirm" id="password-confirm" placeholder="Confirm password" autocomplete="off" required>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" name="agreement" id="agreement">
+            <label class="form-check-label" for="agreement">I have read and agree to <a href="#" class="blue">Terms & Conditions</a> and
+              <a href="#" class="blue">Privacy Policy</a></label>
+          </div>
+          <button type="submit" class="btn btn-primary send">Sign up</button>
+        </form>
+      </div>
+      </div>
+    </div>
+  </div>    
+</div>
+<script src="assets/js/reg.js"></script>
+  </body>
+</html>
